@@ -16,7 +16,21 @@ $navbar-default-bg: #375584;
     color:#ffffff;
     text-decoration: none;
 }
+.navbar a{
+    color: #ffffff !important;
+}
 
+.navbar a:hover{
+    color: #eaeaea !important;
+}
+
+.dropdown-menu li a{
+    color: black !important;
+}
+
+.dropdown-menu li a:hover{
+    color: #375584 !important;
+}
 .center{
     text-align: center;
 }
