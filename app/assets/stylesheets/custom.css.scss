@@ -75,6 +75,13 @@ $navbar-default-bg: #375584;
     list-style: none;
     padding-left: 0;
 }
+
+.badge{
+    background-color: #eaeaea;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: #375584;
+}
 .footer{
     margin-top: 45px;
     padding-top: 5px;
