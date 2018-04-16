@@ -3,6 +3,9 @@ $navbar-default-bg: #375584;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html{
+    overflow-x:hidden;
+}
 #logo{
     float: left;
     font-size: 1.7em;
@@ -36,9 +39,18 @@ $navbar-default-bg: #375584;
 }
 
 .jumbotron{
-    background-image: asset-url(notebook-1971495_1920);
     background-size: cover;
-    height: 600px;
+    height: 650px;
+}
+
+.jumbotron-home{
+    background-image: asset-url(notebook-1971495_1920);
+    margin-top:4%;
+    height: 700px;
+}
+
+.jumbotron-about{
+    background-image: asset-url(clement-h-544786-unsplash);
 }
 
 .jumbotron h1{
